@@ -59,13 +59,14 @@
 
 ### ✨ Futuristic Background Effect
 
-To add a background color with animation to your GitHub profile, you can integrate a custom HTML and CSS block in your README:
+To give your GitHub profile a futuristic and dynamic touch, add the following HTML and CSS block directly into your `README.md` file:
 
 ```html
 <div style="position: relative; overflow: hidden;">
   <div style="background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
-              position: absolute; width: 100%; height: 100%;
-              animation: backgroundAnimation 15s ease infinite;"></div>
+              position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+              z-index: -1; animation: backgroundAnimation 15s ease infinite;">
+  </div>
   <style>
     @keyframes backgroundAnimation {
       0% { background-position: 0% 50%; }
