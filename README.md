@@ -54,24 +54,3 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SuryadevSingh)
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SuryadevSingh)
-
----
-
-### ✨ Futuristic Background Effect
-
-To give your GitHub profile a futuristic and dynamic touch, add the following HTML and CSS block directly into your `README.md` file:
-
-```html
-<div style="position: relative; overflow: hidden;">
-  <div style="background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
-              position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-              z-index: -1; animation: backgroundAnimation 15s ease infinite;">
-  </div>
-  <style>
-    @keyframes backgroundAnimation {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-  </style>
-</div>
